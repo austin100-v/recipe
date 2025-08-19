@@ -4,11 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #2980b9;
+        }
+        a:hover {
+            color: #3498db;
+        }
+        a:visited {
+            color: #8e44ad;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            width: 100%;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer p:last-child {
+            font-style: italic;
+        }
+
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: #f3d85e;
+                color: #000000;
+            }
+            h1, h2 {
+                font-size: 1.5em;
+            }
+            p, ul {
+                font-size: 1em;
+            }
+            footer {
+                font-size: 0.8em;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Odin Recipe</h1>
-    <a href="subRecipes/lasagna.html">Lasagna</a>
-    <a href="subRecipes/french_fries.html">French Fries</a>
-    <a href="subRecipes/pasta_salad.html">Pasta Salad</a>
+    <p>Welcome to the Odin Recipe page! Here you can find a variety of delicious recipes.</p>
+    <h2>Recipes</h2>
+    <ul>
+        <li><a href="subRecipes/lasagna.html" target="_blank">Lasagna</a>
+        <li><a href="subRecipes/french_fries.html" target="_blank">French Fries</a></li>
+        <li><a href="subRecipes/pasta_salad.html" target="_blank">Pasta Salad</a></li>
+    </ul>
+   <footer>
+        <p>Created by Austine Irungu</p>
+        <p>&copy; 2025 All rights preserved</p>
+   </footer>
 </body>
 </html>
